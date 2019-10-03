@@ -7,13 +7,13 @@ def reverse_each_word(string)
   new_array.join(" ")
 end
 
-#
-#
-# def reverse_each_word(string)
-#   array2 = string.split(" ")
-#   new_array2 = []
-#   array.collect do |words|
-#     new_array2.push(words.reverse)
-#   end
-#   new_array2.join(" ")
-# end
+
+
+def reverse_each_word(string)
+  array2 = string.split(" ")
+  new_array2 = []
+  array.collect do |words|
+    new_array2.push(words.reverse)
+  end
+  new_array2.join(" ")
+end
